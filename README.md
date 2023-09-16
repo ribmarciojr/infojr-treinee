@@ -8,4 +8,4 @@ Each of this folders is a project, which has its own README.md and instructions 
 Feel comfortable to check-up any project and try in your computer. 😉
 
 # Check out projects:
-##  1  - [WeLoveDogs]()
+##  1  - [WeLoveDogs](https://github.com/ribmarciojr/infojr-treinee/tree/main/1-WeLoveDogs)
