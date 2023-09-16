@@ -1,0 +1,53 @@
+.title-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.title{
+    color: #000;
+font-family: "Open Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.posts{
+    display: flex;
+    justify-content: center;
+}
+
+.post{
+    width: 1160px;
+    height: 276px;
+    flex-shrink: 0;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.post img {
+    margin-top: 10px;
+}
+
+.post-title{
+    color: #000;
+font-family: "Open Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 23px;
+}
+
+.post-content{
+    width: 778px;
+height: 185px;
+color: #000;
+text-align: justify;
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

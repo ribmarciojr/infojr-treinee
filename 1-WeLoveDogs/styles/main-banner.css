@@ -1,0 +1,42 @@
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.effect-article{
+    margin-right: 25px;
+}
+
+.main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 51px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #7ED321;
+    cursor: pointer;
+}
+
+.main-button a {
+    color: #1C4701;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+.effect-quote{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 371px;
+    height: 351px;
+}

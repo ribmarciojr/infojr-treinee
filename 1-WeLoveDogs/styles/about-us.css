@@ -1,0 +1,38 @@
+.title-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.title{
+    color: #000;
+font-family: "Open Sans";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.our-information{
+    width: 687px;
+    color: #000;
+text-align: justify;
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.about-us-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    display: flex;
+    width: 687px;
+    justify-content: center;
+    flex-wrap: wrap;
+}

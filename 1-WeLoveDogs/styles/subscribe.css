@@ -1,0 +1,81 @@
+.subscribe-content .title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.subscription-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 436px;
+    width: 557px;
+}
+
+.form label {
+    width: 124px;
+    height: 50px;
+    flex-shrink: 0; 
+    color: #000;
+text-align: center;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.form input:not(.message) {
+    width: 419px;
+height: 43px;
+flex-shrink: 0;
+border-radius: 7px;
+border: 1px solid #9F9F9F;
+background: #FFF;
+padding-left: 9px;
+}
+
+.form .message {
+    width: 418px;
+    padding-left: 9px;
+    padding-bottom: 160px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+}
+
+.form button {
+    width: 141px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #7ED321;
+    justify-self: right;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button-container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
