@@ -1,0 +1,23 @@
+.theme-changer {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    width: 72px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #2E2F38;
+    /* border: 1px solid red; */
+  }
+  
+  .switcher {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-color: #4E505F;
+    border-radius: 50%;
+  }

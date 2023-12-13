@@ -1,0 +1,77 @@
+.calculator-panel {
+    width: 335px;
+    /* border: 1px solid red; */
+    margin: auto;
+    overflow-y: hidden;
+  }
+  
+  .computed-exp {
+    height: 2.9375rem;
+    color: rgba(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    opacity: 0.4;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+  }
+  
+  .result-panel {
+    height: 6rem;
+    color: var(--font-color);
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 96px;
+    overflow-y: hidden;
+    margin-bottom: 16px;
+  }
+  
+  .controllers {
+    height: 424px;
+    width: 100%;
+    /* border: 1px solid pink; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .controller {
+    height: 72px;
+    width: 72px;
+    border-radius: 24px;
+    background-color: #2E2F38;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  
+  .controller:nth-child(4n) {
+    background-color: #4B5EFC;
+  }
+  
+  .controller:nth-child(1) {
+    background-color: #4E505F;
+  }
+  
+  .controller:nth-child(2) {
+    background-color: #4E505F;
+  }
+  
+  .controller:nth-child(3) {
+    background-color: #4E505F;
+  }
+  
