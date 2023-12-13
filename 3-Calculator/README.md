@@ -6,13 +6,16 @@
 ### Implemented Front-end
 
 - Calculator
-![alt text](/3-Calculator/readme-assets/calculator.jpg)
+
+![](/3-Calculator/readme-assets/calculator.png)
 
 - Problem
-![alt text](/3-Calculator/readme-assets/problem.png)
+
+![](/3-Calculator/readme-assets/problem.png)
 
 - Solved
-![alt text](/3-Calculator/readme-assets/solved.png)
+
+![](/3-Calculator/readme-assets/solved.png)
 
 
 
