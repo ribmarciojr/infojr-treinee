@@ -1,0 +1,88 @@
+.name {
+    color: #1E293B;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 324px;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: rgb(122, 199, 76, 0.10);
+}
+
+.poke_info {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 60px;
+}
+
+.poke_img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.poke_type {
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #7AC74C;
+    color:  #FFF;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.poke_type[class*="fire"]{
+    background: #EE8130;
+    }
+.poke_type[class*="grass"]{
+    background:#7AC74C;
+}
+.poke_type[class*="flying"]{
+    background:#A98FF3;
+}
+.poke_type[class*="poison"]{
+    background:#A33EA1;
+}
+.poke_type[class*="normal"]{
+    background:grey;
+}
+.poke_type[class*="water"]{
+    background:rgb(23, 23, 141)
+}
+
+
+.card[class*="fire"] {
+    background-color: rgba(238, 129, 48, 0.10);
+}
+.card[class*="grass"] {
+    background-color: rgba(122, 199, 76, 0.10);
+}
+.card[class*="flying"] {
+    background-color: #aa8ff31c;
+}
+.card[class*="poison"] {
+    background-color: rgba(163, 62, 161, 0.10);
+}
+.card[class*="normal"] {
+    background-color: rgba(238, 130, 48, 0.10);
+}
+.card[class*="water"] {
+    background-color: rgba(0, 0, 255, 0.10);
+}

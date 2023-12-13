@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  pokedex:
+    build: ./pokedex
+    ports:
+      - "3000:3000"
+    depends_on:
+      - database
+  
+  database:
+    image: postgres:latest
+    ports:
+      - "5441:5432"
+    environment:
+      - POSTGRES_PASSWORD=12345
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - data:/var/lib/postgresql/data
+volumes:
+  data:

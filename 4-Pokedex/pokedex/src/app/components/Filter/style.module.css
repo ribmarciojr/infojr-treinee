@@ -1,0 +1,38 @@
+.filter_container {
+    width: 295px;
+    display: flex;
+    background-color: #F1F5F9;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.filter {
+    background-color: #F1F5F9;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    border: hidden;
+}
+
+.filter:focus{
+    outline: none;
+}
+
+.filter::placeholder {
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+.search_button {
+    width: 32px;
+    height: 32px;
+}
+
+.filter_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

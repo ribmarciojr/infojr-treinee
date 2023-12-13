@@ -1,0 +1,17 @@
+.pokedex {
+    display: grid;
+    justify-content: center;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+    .pokedex {
+        display: grid;
+        width: 800px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
